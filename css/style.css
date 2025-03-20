@@ -73,6 +73,14 @@ a {
   display: flex;
   gap: 40px;
 }
+.navbar a {
+  padding-top: 22px;
+  transition: all 100ms;
+}
+.navbar-liens a:hover {
+  border-top: solid 3px var(--main-color);
+  color: var(--main-color);
+}
 
 /****** Search-Bar ***********/
 .search_bar {
@@ -129,6 +137,10 @@ a {
   padding-left: 18px;
   padding-right: 18px;
   cursor: pointer;
+  transition: background-color 300ms;
+}
+.filter-item:hover {
+  background-color: var(--filter-bg-color);
 }
 .filter-item p {
   padding-left: 4px;
@@ -168,6 +180,9 @@ a {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+}
+.hebergements .cta {
+  cursor: pointer;
 }
 .hebergements-card {
   display: flex;
@@ -266,6 +281,7 @@ a {
 }
 .activity-cards .card-title {
   padding-left: 15px;
+  padding-bottom: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
