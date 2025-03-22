@@ -7,6 +7,9 @@
   .hebergements {
     width: 100%;
   }
+  .hebergements-card .card-title {
+    font-size: 14px;
+  }
 
   .populaires {
     width: 100%;
@@ -28,6 +31,25 @@
   }
 
   .populaires-cards .card-subtitle {
+    font-size: 13px;
+  }
+  .activity-cards img {
+    height: 200px;
+  }
+
+  .activity-cards .card-title {
+    font-size: 14px;
+  }
+  .activity-cards .card {
+    height: 260px;
+  }
+  .activity-cards .card-txt {
+    padding-top: 5px;
+  }
+  .footer-items h3 {
+    font-size: 16px;
+  }
+  .footer-items p {
     font-size: 13px;
   }
 }
