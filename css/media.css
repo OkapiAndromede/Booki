@@ -1,3 +1,9 @@
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+  --filter-border-color: #d9d9d9;
+}
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hebergements-and-populaires {
@@ -56,5 +62,43 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .introduction-title {
+    font-size: 16px;
+  }
+  .introduction-txt {
+    font-size: 12px;
+  }
+  /****** Header ***********/
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar a {
+    padding-top: 0px;
+    padding-bottom: 22px;
+  }
+  /****** Search-Bar ***********/
+  .search_bar {
+    position: relative;
+  }
+  .search_bar .fa-solid {
+    font-size: small;
+  }
+  .search_bar input::placeholder {
+    font-size: 12px;
+  }
+  .search_bar button[type="submit"]::before {
+    content: "";
+  }
+  .search_bar button[type="submit"] .fa-solid {
+    display: inline-block;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 11px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.37);
+    padding: 17px;
+    position: absolute;
+    top: -1px;
+    right: -8px;
+  }
 }

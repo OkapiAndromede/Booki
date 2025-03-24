@@ -87,15 +87,17 @@ a {
   display: flex;
   align-items: center, stretch;
   width: max-content; /*Adpate la taille du parent à celle de ses enfants. Donc épouse parfaitement les enfants*/
-  overflow: hidden;
+
   border: solid 1px var(--main-bg-color);
   border-radius: 15px;
   margin-bottom: 33px;
 }
-.search_bar .fa-solid {
+.search_bar #search_bar-location {
   color: black;
   background-color: var(--main-bg-color);
   padding: 16px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
 }
 .search_bar input[type="search"] {
   border: none;
@@ -107,13 +109,21 @@ a {
   color: black;
   font-weight: bolder;
 }
-.search_bar input[type="submit"] {
+.search_bar button[type="submit"] {
   background-color: var(--main-color);
   color: white;
   font-weight: 600;
   border: none;
   cursor: pointer;
   padding: 16px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.search_bar button[type="submit"]::before {
+  content: "Rechercher";
+}
+.search_bar button[type="submit"] .fa-solid {
+  display: none;
 }
 /****** Filter ***********/
 .filter {
