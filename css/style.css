@@ -13,17 +13,12 @@
 .fa-solid {
   color: var(--main-color);
 }
-
+/*Centrage du site*/
 body {
-  display: flex;
-  justify-content: center;
-}
-
-.main-container {
-  width: 100%;
+  margin: auto;
   max-width: 1440px;
-  padding: 0 50px;
   box-sizing: border-box;
+  padding: 0 50px;
 }
 
 a {
@@ -71,10 +66,12 @@ a {
 .navbar .navbar-liens {
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  padding-left: 0px; /*Enlève le padding de base avec les liste*/
   gap: 40px;
 }
 .navbar a {
-  padding-top: 22px;
+  padding-top: 13px;
   transition: all 100ms;
 }
 .navbar-liens a:hover {
