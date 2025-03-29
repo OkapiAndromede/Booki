@@ -20,6 +20,9 @@
   .hebergements {
     width: 100%;
   }
+  .hebergements-card a {
+    width: 32%;
+  }
   /****** Populaires ***********/
   .populaires {
     width: 100%;
@@ -35,16 +38,20 @@
   .populaires-cards a {
     width: 30%;
   }
+  .populaires-cards img {
+    height: 125px;
+  }
 
+  /****** Activités ***********/
   .activity-cards img {
     height: 200px;
   }
-  /****** Activités ***********/
+  .activity-cards a {
+    width: 23.5%;
+  }
+
   .activity-cards .card {
     height: 270px;
-  }
-  .activity-cards .card-txt {
-    padding-top: 5px;
   }
 
   /****** Footer ***********/
@@ -60,7 +67,6 @@
     padding: 0px;
   }
   .introduction,
-  .filter,
   .info-btn,
   .activity {
     padding: 0 20px;

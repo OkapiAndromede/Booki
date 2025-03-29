@@ -48,6 +48,7 @@ a {
 
 .card-title {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .euro {
@@ -60,7 +61,7 @@ a {
 /****** Header ***********/
 header {
   margin-top: 1.75rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.875rem;
 }
 .navbar {
   display: flex;
@@ -68,14 +69,14 @@ header {
   align-items: center;
 }
 .navbar .navbar-logo {
-  height: 24px;
-  width: 70px;
+  height: 19px;
+  width: 61.09px;
 }
 .navbar .navbar-liens {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 2.5rem;
+  gap: 4.25rem;
 }
 .navbar a {
   padding-top: 1.75rem;
@@ -89,10 +90,11 @@ header {
 /****** Introduction ***********/
 .introduction .introduction-title {
   font-size: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 .introduction .introduction-txt {
   font-size: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 2.18rem;
 }
 /****** Search-Bar ***********/
 .search_bar {
@@ -102,13 +104,12 @@ header {
 
   border: solid 1px var(--main-bg-color);
   border-radius: 15px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.18rem;
 }
 .search_bar #search_bar-location {
   color: black;
   background-color: var(--main-bg-color);
-  padding: 16px;
+  padding: 18px;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
 }
@@ -122,6 +123,7 @@ header {
 .search_bar input::placeholder {
   color: black;
   font-weight: bolder;
+  padding: 0.875rem 1.5rem;
 }
 .search_bar button[type="submit"] {
   background-color: var(--main-color);
@@ -129,7 +131,7 @@ header {
   font-weight: 600;
   border: none;
   cursor: pointer;
-  padding: 16px;
+  padding: 0.875rem 1rem;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
   font-size: 1.1rem;
@@ -144,24 +146,24 @@ header {
 .filter {
   display: flex;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.18rem;
 }
 .filter p {
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 0.93rem;
   font-size: 1.1rem;
 }
 .filter .filter-list {
   display: flex;
   list-style: none;
-  gap: 1.5em;
+  gap: 0.93rem;
 }
 .filter-list .filter-item {
   display: flex;
   align-items: center;
   border: solid 2px var(--filter-border-color);
   border-radius: 25px;
-  padding: 12px 0px 12px 12px;
+  padding: 0.93rem 1.18rem 1.05rem 1.18em;
   cursor: pointer;
   transition: background-color 300ms;
 }
@@ -181,7 +183,7 @@ header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.18rem;
 }
 .info-btn .fa-info {
   display: flex;
@@ -190,17 +192,19 @@ header {
   font-size: small;
   /*Design du conteneur : sphérique*/
   border: solid 1px var(--filter-border-color);
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
 }
 .info-btn .info-btn-txt {
   font-size: 1rem;
+  margin-left: 0.625rem;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
 .hebergements-and-populaires section {
@@ -227,7 +231,7 @@ header {
   width: 30%; /*Fixe la largeur des cartes en pourcentage*/
 }
 .hebergements-card .card {
-  margin-top: 2rem;
+  margin-top: 1.87rem;
 }
 
 .hebergements-card img {
@@ -237,13 +241,15 @@ header {
   border-top-right-radius: 20px;
 }
 .hebergements-card .card-content {
-  padding-left: 1rem;
+  padding-left: 0.93rem;
 }
 .hebergements-card .card-title {
-  margin: 0.25rem 0;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .hebergements-card .card-subtitle {
   font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 
 .hebergements-card .card-rating {
@@ -298,13 +304,17 @@ header {
   margin-bottom: 0.25rem;
 }
 /****** Activités ***********/
+.activity {
+  margin-left: 1.875rem;
+}
 .activity .section-title {
-  margin-top: 2rem;
+  margin-bottom: 1.875rem;
 }
 .activity .activity-cards {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  padding-right: 1.875rem;
+  margin-bottom: 4.06rem;
 }
 .activity-cards .card {
   padding: 0;
@@ -319,18 +329,17 @@ header {
   border-top-right-radius: 20px;
 }
 .activity-cards .card-title {
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem 0 1rem 0.5rem;
 }
 /****** Footer ***********/
 footer {
   background-color: var(--main-bg-color);
-  margin-top: 3.5rem;
 }
 footer .footer-items {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 1.5rem 0rem 1.5rem 2rem;
+  padding: 1.25rem 0rem 1.25rem 1.25rem;
   line-height: 2em;
 }
 .footer-items .footer-title {
