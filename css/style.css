@@ -1,7 +1,6 @@
 /****** General ***********/
 @import "variable.css";
 @import "component.css";
-@import "media.css";
 
 * {
   font-family: "Raleway", sans-serif;
@@ -18,7 +17,6 @@ a {
 body {
   margin: auto;
   max-width: 1440px;
-  box-sizing: border-box;
   padding: 0 50px;
 }
 
@@ -169,7 +167,6 @@ header {
   background-color: var(--main-bg-color);
   border-radius: 20px;
   padding: 30px;
-  box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
@@ -245,7 +242,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .populaires-cards .card-title {
