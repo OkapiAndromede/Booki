@@ -46,7 +46,7 @@ header {
   gap: 4.25rem;
 }
 .navbar a {
-  padding-top: 1.55rem;
+  padding-top: 1.6rem;
   transition: all 100ms;
   font-size: 1rem;
 }
@@ -84,7 +84,6 @@ header {
   border: none;
   outline: none;
   font-weight: bold;
-  padding-left: 16px;
   font-size: 1.1rem;
 }
 .search_bar input::placeholder {
